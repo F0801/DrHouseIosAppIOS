@@ -39,6 +39,8 @@
 		E4A6BCE42D009F4B0034313B /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCE32D009F4B0034313B /* ImagePickerController.swift */; };
 		E4A6BCEA2D00D6750034313B /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCE92D00D6750034313B /* EditProfileView.swift */; };
 		E4A6BCEC2D00E3470034313B /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCEB2D00E3470034313B /* EditProfileViewModel.swift */; };
+		E4A6BCEE2D00F1250034313B /* ReclamationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCED2D00F1250034313B /* ReclamationView.swift */; };
+		E4A6BCF02D00F1820034313B /* ReclamationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCEF2D00F1820034313B /* ReclamationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,8 @@
 		E4A6BCE32D009F4B0034313B /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 		E4A6BCE92D00D6750034313B /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		E4A6BCEB2D00E3470034313B /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		E4A6BCED2D00F1250034313B /* ReclamationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReclamationView.swift; sourceTree = "<group>"; };
+		E4A6BCEF2D00F1820034313B /* ReclamationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReclamationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 				E440C48D2CFE682F00F3EC4B /* AIViewModel.swift */,
 				E4A6BCD62D006CE20034313B /* PharmacyViewMode.swift */,
 				E4A6BCEB2D00E3470034313B /* EditProfileViewModel.swift */,
+				E4A6BCEF2D00F1820034313B /* ReclamationViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				E440C4892CFE619E00F3EC4B /* HomeTabView.swift */,
 				E4A6BCDC2D006E350034313B /* CartView.swift */,
 				E4A6BCE92D00D6750034313B /* EditProfileView.swift */,
+				E4A6BCED2D00F1250034313B /* ReclamationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 			files = (
 				E440C47A2CFE567400F3EC4B /* ForgotPasswordViewModel.swift in Sources */,
 				E44DE48E2CFE253800B01192 /* SignUpViewModel.swift in Sources */,
+				E4A6BCEE2D00F1250034313B /* ReclamationView.swift in Sources */,
 				E440C48C2CFE631D00F3EC4B /* PredectionModel.swift in Sources */,
 				E440C4822CFE60C900F3EC4B /* MarketplaceView.swift in Sources */,
 				E44DE47F2CFE0AC300B01192 /* HomeViewUI.swift in Sources */,
@@ -279,6 +286,7 @@
 				E440C4882CFE611100F3EC4B /* ProfileView.swift in Sources */,
 				E440C4862CFE610000F3EC4B /* LifestyleView.swift in Sources */,
 				E44DE4642CFDFACE00B01192 /* DrHouseIosAppLastApp.swift in Sources */,
+				E4A6BCF02D00F1820034313B /* ReclamationViewModel.swift in Sources */,
 				E44DE4792CFE030E00B01192 /* SignUpView.swift in Sources */,
 				E4A6BCE22D0088300034313B /* OcrService.swift in Sources */,
 				E440C4842CFE60E600F3EC4B /* AIView.swift in Sources */,
