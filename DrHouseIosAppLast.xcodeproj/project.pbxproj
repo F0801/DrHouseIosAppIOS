@@ -41,6 +41,7 @@
 		E4A6BCEC2D00E3470034313B /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCEB2D00E3470034313B /* EditProfileViewModel.swift */; };
 		E4A6BCEE2D00F1250034313B /* ReclamationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCED2D00F1250034313B /* ReclamationView.swift */; };
 		E4A6BCF02D00F1820034313B /* ReclamationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCEF2D00F1820034313B /* ReclamationViewModel.swift */; };
+		E4A6BCF22D00FAC60034313B /* CreateReclamationDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCF12D00FAC60034313B /* CreateReclamationDto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		E4A6BCEB2D00E3470034313B /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 		E4A6BCED2D00F1250034313B /* ReclamationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReclamationView.swift; sourceTree = "<group>"; };
 		E4A6BCEF2D00F1820034313B /* ReclamationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReclamationViewModel.swift; sourceTree = "<group>"; };
+		E4A6BCF12D00FAC60034313B /* CreateReclamationDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReclamationDto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				E440C47F2CFE5EE100F3EC4B /* Tab.swift */,
 				E440C48B2CFE631D00F3EC4B /* PredectionModel.swift */,
 				E4A6BCD82D006D5B0034313B /* Product.swift */,
+				E4A6BCF12D00FAC60034313B /* CreateReclamationDto.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				E44DE4772CFE025C00B01192 /* LoginUIView.swift in Sources */,
 				E4A6BCD72D006CE20034313B /* PharmacyViewMode.swift in Sources */,
 				E440C4802CFE5EE100F3EC4B /* Tab.swift in Sources */,
+				E4A6BCF22D00FAC60034313B /* CreateReclamationDto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
