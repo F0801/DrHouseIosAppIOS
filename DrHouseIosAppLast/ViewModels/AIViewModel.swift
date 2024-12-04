@@ -20,7 +20,7 @@ class AIViewModel: ObservableObject {
         }
         
         // Prepare URL
-        guard let url = URL(string: "http://192.168.137.159:3000/prediction/symptoms") else {
+        guard let url = URL(string: "http://192.168.39.48:3000/prediction/symptoms") else {
             errorMessage = "Invalid server URL"
             return
         }

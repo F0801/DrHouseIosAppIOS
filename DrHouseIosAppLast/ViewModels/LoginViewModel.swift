@@ -11,7 +11,7 @@ class LoginViewModel: ObservableObject {
     @Published var shouldResetNavigation: Bool = false  // Add this property
 
     private var cancellables = Set<AnyCancellable>()
-    private let baseURL = "http://192.168.137.159:3000"
+    private let baseURL = "http://192.168.39.48:3000"
     
     init() {
         // Check authentication status when ViewModel is initialized

@@ -11,7 +11,7 @@ class SignUpViewModel: ObservableObject {
     @Published var isSignUpSuccessful: Bool = false
     
     private var cancellables = Set<AnyCancellable>()
-    private let baseURL = "http://192.168.137.159:3000"
+    private let baseURL = "http://192.168.39.48:3000"
     
     // Input validation
     func isValidInput() -> Bool {
