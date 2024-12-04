@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E440C4782CFE302800F3EC4B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C4772CFE302800F3EC4B /* LoginViewModel.swift */; };
+		E440C47A2CFE567400F3EC4B /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C4792CFE567400F3EC4B /* ForgotPasswordViewModel.swift */; };
+		E440C47E2CFE5D3E00F3EC4B /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C47D2CFE5D3E00F3EC4B /* CustomTabBar.swift */; };
+		E440C4802CFE5EE100F3EC4B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C47F2CFE5EE100F3EC4B /* Tab.swift */; };
+		E440C4822CFE60C900F3EC4B /* MarketplaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C4812CFE60C900F3EC4B /* MarketplaceView.swift */; };
+		E440C4842CFE60E600F3EC4B /* AIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C4832CFE60E600F3EC4B /* AIView.swift */; };
+		E440C4862CFE610000F3EC4B /* LifestyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C4852CFE610000F3EC4B /* LifestyleView.swift */; };
+		E440C4882CFE611100F3EC4B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C4872CFE611100F3EC4B /* ProfileView.swift */; };
+		E440C48A2CFE619E00F3EC4B /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C4892CFE619E00F3EC4B /* HomeTabView.swift */; };
+		E440C48C2CFE631D00F3EC4B /* PredectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C48B2CFE631D00F3EC4B /* PredectionModel.swift */; };
+		E440C48E2CFE682F00F3EC4B /* AIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C48D2CFE682F00F3EC4B /* AIViewModel.swift */; };
+		E44DE4642CFDFACE00B01192 /* DrHouseIosAppLastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DE4632CFDFACE00B01192 /* DrHouseIosAppLastApp.swift */; };
+		E44DE4662CFDFACE00B01192 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DE4652CFDFACE00B01192 /* ContentView.swift */; };
+		E44DE4682CFDFACF00B01192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E44DE4672CFDFACF00B01192 /* Assets.xcassets */; };
+		E44DE46B2CFDFACF00B01192 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E44DE46A2CFDFACF00B01192 /* Preview Assets.xcassets */; };
+		E44DE46D2CFDFACF00B01192 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DE46C2CFDFACF00B01192 /* Persistence.swift */; };
+		E44DE4702CFDFACF00B01192 /* DrHouseIosAppLast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E44DE46E2CFDFACF00B01192 /* DrHouseIosAppLast.xcdatamodeld */; };
+		E44DE4772CFE025C00B01192 /* LoginUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DE4762CFE025C00B01192 /* LoginUIView.swift */; };
+		E44DE4792CFE030E00B01192 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DE4782CFE030E00B01192 /* SignUpView.swift */; };
+		E44DE47B2CFE042600B01192 /* ForgotPasswordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DE47A2CFE042600B01192 /* ForgotPasswordSheet.swift */; };
+		E44DE47F2CFE0AC300B01192 /* HomeViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DE47E2CFE0AC300B01192 /* HomeViewUI.swift */; };
+		E44DE4822CFE16F600B01192 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E44DE4812CFE16F600B01192 /* Alamofire */; };
+		E44DE4872CFE247A00B01192 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DE4862CFE247A00B01192 /* UserModel.swift */; };
+		E44DE48E2CFE253800B01192 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DE48D2CFE253800B01192 /* SignUpViewModel.swift */; };
+		E4A6BCD72D006CE20034313B /* PharmacyViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCD62D006CE20034313B /* PharmacyViewMode.swift */; };
+		E4A6BCD92D006D5B0034313B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCD82D006D5B0034313B /* Product.swift */; };
+		E4A6BCDB2D006D830034313B /* ProductRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCDA2D006D830034313B /* ProductRepository.swift */; };
+		E4A6BCDD2D006E350034313B /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCDC2D006E350034313B /* CartView.swift */; };
+		E4A6BCE22D0088300034313B /* OcrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCE12D0088300034313B /* OcrService.swift */; };
+		E4A6BCE42D009F4B0034313B /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCE32D009F4B0034313B /* ImagePickerController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E440C4772CFE302800F3EC4B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E440C4792CFE567400F3EC4B /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		E440C47D2CFE5D3E00F3EC4B /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		E440C47F2CFE5EE100F3EC4B /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		E440C4812CFE60C900F3EC4B /* MarketplaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketplaceView.swift; sourceTree = "<group>"; };
+		E440C4832CFE60E600F3EC4B /* AIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIView.swift; sourceTree = "<group>"; };
+		E440C4852CFE610000F3EC4B /* LifestyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifestyleView.swift; sourceTree = "<group>"; };
+		E440C4872CFE611100F3EC4B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E440C4892CFE619E00F3EC4B /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		E440C48B2CFE631D00F3EC4B /* PredectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredectionModel.swift; sourceTree = "<group>"; };
+		E440C48D2CFE682F00F3EC4B /* AIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIViewModel.swift; sourceTree = "<group>"; };
+		E44DE4602CFDFACE00B01192 /* DrHouseIosAppLast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrHouseIosAppLast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44DE4632CFDFACE00B01192 /* DrHouseIosAppLastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHouseIosAppLastApp.swift; sourceTree = "<group>"; };
+		E44DE4652CFDFACE00B01192 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E44DE4672CFDFACF00B01192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E44DE46A2CFDFACF00B01192 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E44DE46C2CFDFACF00B01192 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E44DE46F2CFDFACF00B01192 /* DrHouseIosAppLast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrHouseIosAppLast.xcdatamodel; sourceTree = "<group>"; };
+		E44DE4762CFE025C00B01192 /* LoginUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIView.swift; sourceTree = "<group>"; };
+		E44DE4782CFE030E00B01192 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		E44DE47A2CFE042600B01192 /* ForgotPasswordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordSheet.swift; sourceTree = "<group>"; };
+		E44DE47E2CFE0AC300B01192 /* HomeViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewUI.swift; sourceTree = "<group>"; };
+		E44DE4862CFE247A00B01192 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E44DE48D2CFE253800B01192 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		E4A6BCD62D006CE20034313B /* PharmacyViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyViewMode.swift; sourceTree = "<group>"; };
+		E4A6BCD82D006D5B0034313B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E4A6BCDA2D006D830034313B /* ProductRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRepository.swift; sourceTree = "<group>"; };
+		E4A6BCDC2D006E350034313B /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		E4A6BCE12D0088300034313B /* OcrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcrService.swift; sourceTree = "<group>"; };
+		E4A6BCE32D009F4B0034313B /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E44DE45D2CFDFACE00B01192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44DE4822CFE16F600B01192 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E44DE4572CFDFACE00B01192 = {
+			isa = PBXGroup;
+			children = (
+				E44DE4622CFDFACE00B01192 /* DrHouseIosAppLast */,
+				E44DE4612CFDFACE00B01192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E44DE4612CFDFACE00B01192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E44DE4602CFDFACE00B01192 /* DrHouseIosAppLast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E44DE4622CFDFACE00B01192 /* DrHouseIosAppLast */ = {
+			isa = PBXGroup;
+			children = (
+				E4A6BCDE2D006F670034313B /* Repository */,
+				E44DE4852CFE246900B01192 /* Models */,
+				E44DE4842CFE175100B01192 /* Views */,
+				E44DE4832CFE173E00B01192 /* ViewModels */,
+				E44DE4632CFDFACE00B01192 /* DrHouseIosAppLastApp.swift */,
+				E44DE4652CFDFACE00B01192 /* ContentView.swift */,
+				E44DE4672CFDFACF00B01192 /* Assets.xcassets */,
+				E44DE46C2CFDFACF00B01192 /* Persistence.swift */,
+				E44DE46E2CFDFACF00B01192 /* DrHouseIosAppLast.xcdatamodeld */,
+				E44DE4692CFDFACF00B01192 /* Preview Content */,
+			);
+			path = DrHouseIosAppLast;
+			sourceTree = "<group>";
+		};
+		E44DE4692CFDFACF00B01192 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E44DE46A2CFDFACF00B01192 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E44DE4832CFE173E00B01192 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E44DE48D2CFE253800B01192 /* SignUpViewModel.swift */,
+				E440C4772CFE302800F3EC4B /* LoginViewModel.swift */,
+				E440C4792CFE567400F3EC4B /* ForgotPasswordViewModel.swift */,
+				E440C48D2CFE682F00F3EC4B /* AIViewModel.swift */,
+				E4A6BCD62D006CE20034313B /* PharmacyViewMode.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E44DE4842CFE175100B01192 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E44DE4782CFE030E00B01192 /* SignUpView.swift */,
+				E44DE47E2CFE0AC300B01192 /* HomeViewUI.swift */,
+				E44DE47A2CFE042600B01192 /* ForgotPasswordSheet.swift */,
+				E44DE4762CFE025C00B01192 /* LoginUIView.swift */,
+				E440C47D2CFE5D3E00F3EC4B /* CustomTabBar.swift */,
+				E440C4812CFE60C900F3EC4B /* MarketplaceView.swift */,
+				E440C4832CFE60E600F3EC4B /* AIView.swift */,
+				E440C4852CFE610000F3EC4B /* LifestyleView.swift */,
+				E440C4872CFE611100F3EC4B /* ProfileView.swift */,
+				E440C4892CFE619E00F3EC4B /* HomeTabView.swift */,
+				E4A6BCDC2D006E350034313B /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E44DE4852CFE246900B01192 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E44DE4862CFE247A00B01192 /* UserModel.swift */,
+				E440C47F2CFE5EE100F3EC4B /* Tab.swift */,
+				E440C48B2CFE631D00F3EC4B /* PredectionModel.swift */,
+				E4A6BCD82D006D5B0034313B /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E4A6BCDE2D006F670034313B /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E4A6BCDA2D006D830034313B /* ProductRepository.swift */,
+				E4A6BCE12D0088300034313B /* OcrService.swift */,
+				E4A6BCE32D009F4B0034313B /* ImagePickerController.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E44DE45F2CFDFACE00B01192 /* DrHouseIosAppLast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44DE4732CFDFACF00B01192 /* Build configuration list for PBXNativeTarget "DrHouseIosAppLast" */;
+			buildPhases = (
+				E44DE45C2CFDFACE00B01192 /* Sources */,
+				E44DE45D2CFDFACE00B01192 /* Frameworks */,
+				E44DE45E2CFDFACE00B01192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrHouseIosAppLast;
+			packageProductDependencies = (
+				E44DE4812CFE16F600B01192 /* Alamofire */,
+			);
+			productName = DrHouseIosAppLast;
+			productReference = E44DE4602CFDFACE00B01192 /* DrHouseIosAppLast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E44DE4582CFDFACE00B01192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E44DE45F2CFDFACE00B01192 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = E44DE45B2CFDFACE00B01192 /* Build configuration list for PBXProject "DrHouseIosAppLast" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E44DE4572CFDFACE00B01192;
+			packageReferences = (
+				E44DE4802CFE16F600B01192 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = E44DE4612CFDFACE00B01192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E44DE45F2CFDFACE00B01192 /* DrHouseIosAppLast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E44DE45E2CFDFACE00B01192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44DE46B2CFDFACF00B01192 /* Preview Assets.xcassets in Resources */,
+				E44DE4682CFDFACF00B01192 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E44DE45C2CFDFACE00B01192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E440C47A2CFE567400F3EC4B /* ForgotPasswordViewModel.swift in Sources */,
+				E44DE48E2CFE253800B01192 /* SignUpViewModel.swift in Sources */,
+				E440C48C2CFE631D00F3EC4B /* PredectionModel.swift in Sources */,
+				E440C4822CFE60C900F3EC4B /* MarketplaceView.swift in Sources */,
+				E44DE47F2CFE0AC300B01192 /* HomeViewUI.swift in Sources */,
+				E440C47E2CFE5D3E00F3EC4B /* CustomTabBar.swift in Sources */,
+				E440C48A2CFE619E00F3EC4B /* HomeTabView.swift in Sources */,
+				E44DE4702CFDFACF00B01192 /* DrHouseIosAppLast.xcdatamodeld in Sources */,
+				E44DE46D2CFDFACF00B01192 /* Persistence.swift in Sources */,
+				E440C4782CFE302800F3EC4B /* LoginViewModel.swift in Sources */,
+				E4A6BCE42D009F4B0034313B /* ImagePickerController.swift in Sources */,
+				E44DE4662CFDFACE00B01192 /* ContentView.swift in Sources */,
+				E4A6BCDB2D006D830034313B /* ProductRepository.swift in Sources */,
+				E440C48E2CFE682F00F3EC4B /* AIViewModel.swift in Sources */,
+				E4A6BCD92D006D5B0034313B /* Product.swift in Sources */,
+				E44DE47B2CFE042600B01192 /* ForgotPasswordSheet.swift in Sources */,
+				E440C4882CFE611100F3EC4B /* ProfileView.swift in Sources */,
+				E440C4862CFE610000F3EC4B /* LifestyleView.swift in Sources */,
+				E44DE4642CFDFACE00B01192 /* DrHouseIosAppLastApp.swift in Sources */,
+				E44DE4792CFE030E00B01192 /* SignUpView.swift in Sources */,
+				E4A6BCE22D0088300034313B /* OcrService.swift in Sources */,
+				E440C4842CFE60E600F3EC4B /* AIView.swift in Sources */,
+				E4A6BCDD2D006E350034313B /* CartView.swift in Sources */,
+				E44DE4872CFE247A00B01192 /* UserModel.swift in Sources */,
+				E44DE4772CFE025C00B01192 /* LoginUIView.swift in Sources */,
+				E4A6BCD72D006CE20034313B /* PharmacyViewMode.swift in Sources */,
+				E440C4802CFE5EE100F3EC4B /* Tab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E44DE4712CFDFACF00B01192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E44DE4722CFDFACF00B01192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E44DE4742CFDFACF00B01192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrHouseIosAppLast/Preview Content\"";
+				DEVELOPMENT_TEAM = 953V584L2D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.DrHouseIosAppLast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E44DE4752CFDFACF00B01192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrHouseIosAppLast/Preview Content\"";
+				DEVELOPMENT_TEAM = 953V584L2D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.DrHouseIosAppLast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E44DE45B2CFDFACE00B01192 /* Build configuration list for PBXProject "DrHouseIosAppLast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44DE4712CFDFACF00B01192 /* Debug */,
+				E44DE4722CFDFACF00B01192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44DE4732CFDFACF00B01192 /* Build configuration list for PBXNativeTarget "DrHouseIosAppLast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44DE4742CFDFACF00B01192 /* Debug */,
+				E44DE4752CFDFACF00B01192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E44DE4802CFE16F600B01192 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E44DE4812CFE16F600B01192 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E44DE4802CFE16F600B01192 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E44DE46E2CFDFACF00B01192 /* DrHouseIosAppLast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E44DE46F2CFDFACF00B01192 /* DrHouseIosAppLast.xcdatamodel */,
+			);
+			currentVersion = E44DE46F2CFDFACF00B01192 /* DrHouseIosAppLast.xcdatamodel */;
+			path = DrHouseIosAppLast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E44DE4582CFDFACE00B01192 /* Project object */;
+}
