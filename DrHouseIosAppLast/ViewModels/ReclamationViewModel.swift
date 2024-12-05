@@ -27,6 +27,15 @@ class ReclamationViewModel: ObservableObject {
             }
             
             // Retrieve the user ID from UserDefaults
+        DispatchQueue.main.async {
+            if let userId = UserDefaults.standard.string(forKey: "userId") {
+                print("User ID retrieved: \(userId)")
+            } else {
+                print("User ID not found in UserDefaults.")
+            }
+        }
+
+        
             guard let userId = UserDefaults.standard.string(forKey: "userId") else {
                 self.errorMessage = "User ID not found. Please log in again."
                 return

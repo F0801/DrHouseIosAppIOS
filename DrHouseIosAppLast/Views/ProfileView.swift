@@ -62,7 +62,6 @@ struct ProfileView: View {
                             .cornerRadius(50)
                     }
                     .padding(.top, 20)
-                    
                     // Reclamation button (navigate to ReclamationView)
                     NavigationLink(destination: ReclamationView()) {
                         Text("Reclamation")

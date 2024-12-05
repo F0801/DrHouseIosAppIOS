@@ -105,7 +105,7 @@ struct ReclamationView: View {
                 title: Text("Reclamation Error"),
                 message: Text(viewModel.errorMessage ?? ""),
                 dismissButton: .default(Text("OK")) {
-                    viewModel.errorMessage = nil
+                    viewModel.errorMessage	 = nil
                 }
             )
         }

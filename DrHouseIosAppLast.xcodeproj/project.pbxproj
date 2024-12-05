@@ -42,6 +42,7 @@
 		E4A6BCEE2D00F1250034313B /* ReclamationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCED2D00F1250034313B /* ReclamationView.swift */; };
 		E4A6BCF02D00F1820034313B /* ReclamationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCEF2D00F1820034313B /* ReclamationViewModel.swift */; };
 		E4A6BCF22D00FAC60034313B /* CreateReclamationDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCF12D00FAC60034313B /* CreateReclamationDto.swift */; };
+		E4A6BCF42D0107CD0034313B /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCF32D0107CD0034313B /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		E4A6BCED2D00F1250034313B /* ReclamationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReclamationView.swift; sourceTree = "<group>"; };
 		E4A6BCEF2D00F1820034313B /* ReclamationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReclamationViewModel.swift; sourceTree = "<group>"; };
 		E4A6BCF12D00FAC60034313B /* CreateReclamationDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReclamationDto.swift; sourceTree = "<group>"; };
+		E4A6BCF32D0107CD0034313B /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				E4A6BCD62D006CE20034313B /* PharmacyViewMode.swift */,
 				E4A6BCEB2D00E3470034313B /* EditProfileViewModel.swift */,
 				E4A6BCEF2D00F1820034313B /* ReclamationViewModel.swift */,
+				E4A6BCF32D0107CD0034313B /* ProfileViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				E440C48E2CFE682F00F3EC4B /* AIViewModel.swift in Sources */,
 				E4A6BCEA2D00D6750034313B /* EditProfileView.swift in Sources */,
 				E4A6BCD92D006D5B0034313B /* Product.swift in Sources */,
+				E4A6BCF42D0107CD0034313B /* ProfileViewModel.swift in Sources */,
 				E44DE47B2CFE042600B01192 /* ForgotPasswordSheet.swift in Sources */,
 				E440C4882CFE611100F3EC4B /* ProfileView.swift in Sources */,
 				E440C4862CFE610000F3EC4B /* LifestyleView.swift in Sources */,

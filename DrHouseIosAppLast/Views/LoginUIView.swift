@@ -171,7 +171,7 @@ struct LoginView: View {
                 switch route {
                 case "home":
                     HomeView(navigationPath: $navigationPath)
-                        .navigationBarBackButtonHidden()
+                       .navigationBarBackButtonHidden()
                 case "signup":
                     SignUpView()
                 default:
