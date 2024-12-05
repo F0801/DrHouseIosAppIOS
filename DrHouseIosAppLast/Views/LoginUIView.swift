@@ -7,6 +7,7 @@ struct LoginView: View {
     @Environment(\.colorScheme) var colorScheme
     @State private var isPasswordVisible = false
     
+    
     var body: some View {
         NavigationStack(path: $navigationPath) {
             ZStack {
@@ -163,15 +164,23 @@ struct LoginView: View {
             .onChange(of: viewModel.isAuthenticated) { newValue in
                 if newValue {
                     withAnimation {
-                        navigationPath.append("home")
+                        if viewModel.isFirstLogin {
+                            navigationPath.append("goal-settings")
+                        } else {
+                            navigationPath.append("home")
+                        }
                     }
                 }
             }
+
             .navigationDestination(for: String.self) { route in
                 switch route {
                 case "home":
                     HomeView(navigationPath: $navigationPath)
-                       .navigationBarBackButtonHidden()
+                        .navigationBarBackButtonHidden()
+                case "goal-settings":
+                    GoalSettingsView(navigationPath: $navigationPath)
+                        .navigationBarBackButtonHidden()
                 case "signup":
                     SignUpView()
                 default:

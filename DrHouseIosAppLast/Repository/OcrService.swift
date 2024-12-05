@@ -8,7 +8,7 @@ struct OCRResponse: Decodable {
 
 class OCRService {
     static func uploadImage(imageData: Data, completion: @escaping (Result<String, Error>) -> Void) {
-        guard let url = URL(string: "http://192.168.39.48:3000/ocr/upload") else {
+        guard let url = URL(string: "http://172.18.7.103:3000/ocr/upload") else {
             completion(.failure(NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey: "Invalid URL"])))
             return
         }

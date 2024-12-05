@@ -2,7 +2,7 @@ import Alamofire
 import Foundation
 
 class ProductRepository {
-    private let baseURL = "http://192.168.39.48:3000/" // Replace with your backend API base URL
+    private let baseURL = "http://172.18.7.103:3000/" // Replace with your backend API base URL
 
     // Fetch all products
     func fetchProducts(completion: @escaping (Result<[Product], Error>) -> Void) {

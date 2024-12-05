@@ -1,9 +1,13 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @ObservedObject var viewModel: LoginViewModel
+    @Binding var navigationPath: NavigationPath
+    @ObservedObject var profileviewModel: ProfileViewModel
     var body: some View {
         NavigationView {
             ZStack {
+                
                 // Background gradient
                 LinearGradient(gradient: Gradient(colors: [Color.blue.opacity(0.3), Color.white]),
                                startPoint: .topLeading,
@@ -76,8 +80,8 @@ struct ProfileView: View {
 
                     // Logout button
                     Button(action: {
-                        // Action for logging out (implement logout functionality here)
-                        print("Log Out tapped")
+                        viewModel.logout()
+                        navigationPath = NavigationPath()
                     }) {
                         Text("Logout")
                             .fontWeight(.bold)
@@ -98,8 +102,3 @@ struct ProfileView: View {
     }
 }
 
-struct ProfileView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProfileView()
-    }
-}

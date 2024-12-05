@@ -88,15 +88,40 @@ struct CartView: View {
 
 struct CartItemCard: View {
     let product: Product
+    let baseURL = "http://172.18.7.103:3000" 
+    // Construct the full URL for the image
+    private func getImageURL() -> URL? {
+        let imageURLString = baseURL + product.image
+        return URL(string: imageURLString)
+    }
     
     var body: some View {
         VStack {
             HStack {
-                Image(product.image)
-                    .resizable()
-                    .scaledToFit()
-                    .frame(height: 60)
-                    .clipShape(RoundedRectangle(cornerRadius: 8))
+                
+                    AsyncImage(url: getImageURL()) { phase in
+                        switch phase {
+                        case .empty:
+                            ProgressView()
+                                .progressViewStyle(CircularProgressViewStyle())
+                        case .success(let image):
+                            image
+                                .resizable()
+                                .scaledToFit()
+                              //  .frame(height: 120)
+                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                        case .failure:
+                            // Fallback image in case of failure
+                            Image("defaultImage")  // Make sure to have a default image in your assets
+                                .resizable()
+                                .scaledToFit()
+                                .frame(height: 60)
+                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                        @unknown default:
+                            EmptyView()
+                        
+                    }
+                }
                 
                 VStack(alignment: .leading) {
                     Text(product.name)

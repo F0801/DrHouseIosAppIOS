@@ -31,6 +31,17 @@
 		E44DE4822CFE16F600B01192 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E44DE4812CFE16F600B01192 /* Alamofire */; };
 		E44DE4872CFE247A00B01192 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DE4862CFE247A00B01192 /* UserModel.swift */; };
 		E44DE48E2CFE253800B01192 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DE48D2CFE253800B01192 /* SignUpViewModel.swift */; };
+		E45A2B572D01DB0B006DA141 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E45A2B562D01DB0B006DA141 /* Lottie */; };
+		E45A2B592D01DC46006DA141 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A2B582D01DC46006DA141 /* Goal.swift */; };
+		E45A2B5B2D01DC4F006DA141 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A2B5A2D01DC4F006DA141 /* Progress.swift */; };
+		E45A2B5D2D01DC57006DA141 /* ProgressRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A2B5C2D01DC57006DA141 /* ProgressRepository.swift */; };
+		E45A2B5F2D01DC5F006DA141 /* Apiservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A2B5E2D01DC5F006DA141 /* Apiservice.swift */; };
+		E45A2B612D01DCE1006DA141 /* GoalSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A2B602D01DCE1006DA141 /* GoalSettingsView.swift */; };
+		E45A2B632D01DCE9006DA141 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A2B622D01DCE9006DA141 /* RootView.swift */; };
+		E45A2B652D01DCEF006DA141 /* ProgressScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A2B642D01DCEF006DA141 /* ProgressScreen.swift */; };
+		E45A2B672D01DCF3006DA141 /* ProgressScreenComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A2B662D01DCF3006DA141 /* ProgressScreenComponents.swift */; };
+		E45A2B692D01DD10006DA141 /* GoalSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A2B682D01DD10006DA141 /* GoalSettingsViewModel.swift */; };
+		E45A2B6B2D01DD14006DA141 /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A2B6A2D01DD14006DA141 /* ProgressViewModel.swift */; };
 		E4A6BCD72D006CE20034313B /* PharmacyViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCD62D006CE20034313B /* PharmacyViewMode.swift */; };
 		E4A6BCD92D006D5B0034313B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCD82D006D5B0034313B /* Product.swift */; };
 		E4A6BCDB2D006D830034313B /* ProductRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6BCDA2D006D830034313B /* ProductRepository.swift */; };
@@ -70,6 +81,16 @@
 		E44DE47E2CFE0AC300B01192 /* HomeViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewUI.swift; sourceTree = "<group>"; };
 		E44DE4862CFE247A00B01192 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		E44DE48D2CFE253800B01192 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		E45A2B582D01DC46006DA141 /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Goal.swift; path = ../../../Forimpl/DrHouseIosAppLastdayatworld/DrHouseIosAppLast/Models/Goal.swift; sourceTree = "<group>"; };
+		E45A2B5A2D01DC4F006DA141 /* Progress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Progress.swift; path = ../../../Forimpl/DrHouseIosAppLastdayatworld/DrHouseIosAppLast/Models/Progress.swift; sourceTree = "<group>"; };
+		E45A2B5C2D01DC57006DA141 /* ProgressRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressRepository.swift; path = ../../../Forimpl/DrHouseIosAppLastdayatworld/DrHouseIosAppLast/Models/ProgressRepository.swift; sourceTree = "<group>"; };
+		E45A2B5E2D01DC5F006DA141 /* Apiservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Apiservice.swift; path = ../../../Forimpl/DrHouseIosAppLastdayatworld/DrHouseIosAppLast/Models/Apiservice.swift; sourceTree = "<group>"; };
+		E45A2B602D01DCE1006DA141 /* GoalSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoalSettingsView.swift; path = ../../../Forimpl/DrHouseIosAppLastdayatworld/DrHouseIosAppLast/Views/GoalSettingsView.swift; sourceTree = "<group>"; };
+		E45A2B622D01DCE9006DA141 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = ../../../Forimpl/DrHouseIosAppLastdayatworld/DrHouseIosAppLast/Views/RootView.swift; sourceTree = "<group>"; };
+		E45A2B642D01DCEF006DA141 /* ProgressScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressScreen.swift; path = ../../../Forimpl/DrHouseIosAppLastdayatworld/DrHouseIosAppLast/Views/ProgressScreen.swift; sourceTree = "<group>"; };
+		E45A2B662D01DCF3006DA141 /* ProgressScreenComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressScreenComponents.swift; path = ../../../Forimpl/DrHouseIosAppLastdayatworld/DrHouseIosAppLast/Views/ProgressScreenComponents.swift; sourceTree = "<group>"; };
+		E45A2B682D01DD10006DA141 /* GoalSettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoalSettingsViewModel.swift; path = ../../../Forimpl/DrHouseIosAppLastdayatworld/DrHouseIosAppLast/ViewModels/GoalSettingsViewModel.swift; sourceTree = "<group>"; };
+		E45A2B6A2D01DD14006DA141 /* ProgressViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressViewModel.swift; path = ../../../Forimpl/DrHouseIosAppLastdayatworld/DrHouseIosAppLast/ViewModels/ProgressViewModel.swift; sourceTree = "<group>"; };
 		E4A6BCD62D006CE20034313B /* PharmacyViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyViewMode.swift; sourceTree = "<group>"; };
 		E4A6BCD82D006D5B0034313B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		E4A6BCDA2D006D830034313B /* ProductRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRepository.swift; sourceTree = "<group>"; };
@@ -90,6 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E44DE4822CFE16F600B01192 /* Alamofire in Frameworks */,
+				E45A2B572D01DB0B006DA141 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +164,8 @@
 			children = (
 				E44DE48D2CFE253800B01192 /* SignUpViewModel.swift */,
 				E440C4772CFE302800F3EC4B /* LoginViewModel.swift */,
+				E45A2B682D01DD10006DA141 /* GoalSettingsViewModel.swift */,
+				E45A2B6A2D01DD14006DA141 /* ProgressViewModel.swift */,
 				E440C4792CFE567400F3EC4B /* ForgotPasswordViewModel.swift */,
 				E440C48D2CFE682F00F3EC4B /* AIViewModel.swift */,
 				E4A6BCD62D006CE20034313B /* PharmacyViewMode.swift */,
@@ -156,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				E44DE4782CFE030E00B01192 /* SignUpView.swift */,
+				E45A2B602D01DCE1006DA141 /* GoalSettingsView.swift */,
 				E44DE47E2CFE0AC300B01192 /* HomeViewUI.swift */,
 				E44DE47A2CFE042600B01192 /* ForgotPasswordSheet.swift */,
 				E44DE4762CFE025C00B01192 /* LoginUIView.swift */,
@@ -163,7 +188,10 @@
 				E440C4812CFE60C900F3EC4B /* MarketplaceView.swift */,
 				E440C4832CFE60E600F3EC4B /* AIView.swift */,
 				E440C4852CFE610000F3EC4B /* LifestyleView.swift */,
+				E45A2B642D01DCEF006DA141 /* ProgressScreen.swift */,
 				E440C4872CFE611100F3EC4B /* ProfileView.swift */,
+				E45A2B662D01DCF3006DA141 /* ProgressScreenComponents.swift */,
+				E45A2B622D01DCE9006DA141 /* RootView.swift */,
 				E440C4892CFE619E00F3EC4B /* HomeTabView.swift */,
 				E4A6BCDC2D006E350034313B /* CartView.swift */,
 				E4A6BCE92D00D6750034313B /* EditProfileView.swift */,
@@ -175,6 +203,8 @@
 		E44DE4852CFE246900B01192 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E45A2B582D01DC46006DA141 /* Goal.swift */,
+				E45A2B5A2D01DC4F006DA141 /* Progress.swift */,
 				E44DE4862CFE247A00B01192 /* UserModel.swift */,
 				E440C47F2CFE5EE100F3EC4B /* Tab.swift */,
 				E440C48B2CFE631D00F3EC4B /* PredectionModel.swift */,
@@ -188,7 +218,9 @@
 			isa = PBXGroup;
 			children = (
 				E4A6BCDA2D006D830034313B /* ProductRepository.swift */,
+				E45A2B5C2D01DC57006DA141 /* ProgressRepository.swift */,
 				E4A6BCE12D0088300034313B /* OcrService.swift */,
+				E45A2B5E2D01DC5F006DA141 /* Apiservice.swift */,
 				E4A6BCE32D009F4B0034313B /* ImagePickerController.swift */,
 			);
 			path = Repository;
@@ -212,6 +244,7 @@
 			name = DrHouseIosAppLast;
 			packageProductDependencies = (
 				E44DE4812CFE16F600B01192 /* Alamofire */,
+				E45A2B562D01DB0B006DA141 /* Lottie */,
 			);
 			productName = DrHouseIosAppLast;
 			productReference = E44DE4602CFDFACE00B01192 /* DrHouseIosAppLast.app */;
@@ -243,6 +276,7 @@
 			mainGroup = E44DE4572CFDFACE00B01192;
 			packageReferences = (
 				E44DE4802CFE16F600B01192 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E45A2B552D01DB0A006DA141 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = E44DE4612CFDFACE00B01192 /* Products */;
 			projectDirPath = "";
@@ -270,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45A2B6B2D01DD14006DA141 /* ProgressViewModel.swift in Sources */,
 				E440C47A2CFE567400F3EC4B /* ForgotPasswordViewModel.swift in Sources */,
 				E44DE48E2CFE253800B01192 /* SignUpViewModel.swift in Sources */,
 				E4A6BCEE2D00F1250034313B /* ReclamationView.swift in Sources */,
@@ -280,7 +315,9 @@
 				E440C47E2CFE5D3E00F3EC4B /* CustomTabBar.swift in Sources */,
 				E440C48A2CFE619E00F3EC4B /* HomeTabView.swift in Sources */,
 				E44DE4702CFDFACF00B01192 /* DrHouseIosAppLast.xcdatamodeld in Sources */,
+				E45A2B592D01DC46006DA141 /* Goal.swift in Sources */,
 				E44DE46D2CFDFACF00B01192 /* Persistence.swift in Sources */,
+				E45A2B5D2D01DC57006DA141 /* ProgressRepository.swift in Sources */,
 				E440C4782CFE302800F3EC4B /* LoginViewModel.swift in Sources */,
 				E4A6BCE42D009F4B0034313B /* ImagePickerController.swift in Sources */,
 				E44DE4662CFDFACE00B01192 /* ContentView.swift in Sources */,
@@ -288,21 +325,28 @@
 				E440C48E2CFE682F00F3EC4B /* AIViewModel.swift in Sources */,
 				E4A6BCEA2D00D6750034313B /* EditProfileView.swift in Sources */,
 				E4A6BCD92D006D5B0034313B /* Product.swift in Sources */,
+				E45A2B652D01DCEF006DA141 /* ProgressScreen.swift in Sources */,
 				E4A6BCF42D0107CD0034313B /* ProfileViewModel.swift in Sources */,
 				E44DE47B2CFE042600B01192 /* ForgotPasswordSheet.swift in Sources */,
 				E440C4882CFE611100F3EC4B /* ProfileView.swift in Sources */,
 				E440C4862CFE610000F3EC4B /* LifestyleView.swift in Sources */,
 				E44DE4642CFDFACE00B01192 /* DrHouseIosAppLastApp.swift in Sources */,
 				E4A6BCF02D00F1820034313B /* ReclamationViewModel.swift in Sources */,
+				E45A2B612D01DCE1006DA141 /* GoalSettingsView.swift in Sources */,
+				E45A2B692D01DD10006DA141 /* GoalSettingsViewModel.swift in Sources */,
 				E44DE4792CFE030E00B01192 /* SignUpView.swift in Sources */,
+				E45A2B672D01DCF3006DA141 /* ProgressScreenComponents.swift in Sources */,
 				E4A6BCE22D0088300034313B /* OcrService.swift in Sources */,
 				E440C4842CFE60E600F3EC4B /* AIView.swift in Sources */,
 				E4A6BCDD2D006E350034313B /* CartView.swift in Sources */,
 				E44DE4872CFE247A00B01192 /* UserModel.swift in Sources */,
 				E44DE4772CFE025C00B01192 /* LoginUIView.swift in Sources */,
+				E45A2B5B2D01DC4F006DA141 /* Progress.swift in Sources */,
 				E4A6BCD72D006CE20034313B /* PharmacyViewMode.swift in Sources */,
+				E45A2B632D01DCE9006DA141 /* RootView.swift in Sources */,
 				E440C4802CFE5EE100F3EC4B /* Tab.swift in Sources */,
 				E4A6BCF22D00FAC60034313B /* CreateReclamationDto.swift in Sources */,
+				E45A2B5F2D01DC5F006DA141 /* Apiservice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +557,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		E45A2B552D01DB0A006DA141 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -520,6 +572,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E44DE4802CFE16F600B01192 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		E45A2B562D01DB0B006DA141 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E45A2B552D01DB0A006DA141 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 

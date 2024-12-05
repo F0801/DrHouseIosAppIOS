@@ -28,7 +28,7 @@ class ReclamationViewModel: ObservableObject {
             
             // Retrieve the user ID from UserDefaults
         DispatchQueue.main.async {
-            if let userId = UserDefaults.standard.string(forKey: "userId") {
+            if let userId = UserDefaults.standard.string(forKey: "USER_ID") {
                 print("User ID retrieved: \(userId)")
             } else {
                 print("User ID not found in UserDefaults.")
@@ -36,16 +36,16 @@ class ReclamationViewModel: ObservableObject {
         }
 
         
-            guard let userId = UserDefaults.standard.string(forKey: "userId") else {
+            guard let userId = UserDefaults.standard.string(forKey: "USER_ID") else {
                 self.errorMessage = "User ID not found. Please log in again."
                 return
             }
             
             // Create the reclamation object
-            let newReclamation = Reclamation(user: userId, subject: subject, reclamationText: reclamationText)
+            let newReclamation = Reclamation(user: userId, title: subject, description: reclamationText)
             
             // Prepare the API URL
-            guard let url = URL(string: "https://192.168.39.48:3000/reclamations") else {
+            guard let url = URL(string: "https://172.18.7.103:3000/reclamations") else {
                 self.errorMessage = "Invalid API URL."
                 return
             }

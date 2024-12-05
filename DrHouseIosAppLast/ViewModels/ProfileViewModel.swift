@@ -14,7 +14,7 @@ class ProfileViewModel: ObservableObject {
         return UserDefaults.standard.string(forKey: "accessToken") // Get the stored access token
     }
     private var userid: String? {
-        return UserDefaults.standard.string(forKey: "userId") // Get the stored access token
+        return UserDefaults.standard.string(forKey: "USER_ID") // Get the stored access token
     }
     
     func fetchUserData() {
@@ -23,7 +23,7 @@ class ProfileViewModel: ObservableObject {
             return
         }
         
-        guard let url = URL(string: "https://192.168.39.48:3000/users/profile") else {
+        guard let url = URL(string: "https://172.18.7.103:3000/users/profile") else {
             self.errorMessage = LoginError.invalidURL.localizedDescription
             return
         }

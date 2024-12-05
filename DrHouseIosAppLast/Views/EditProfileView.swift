@@ -71,8 +71,8 @@ struct EditProfileView: View {
                         .fontWeight(.bold)
                         .foregroundColor(.white)
                         .padding()
-                        .frame(width: 200)
-                        .background(Color.black.opacity(0.9))
+                        .frame(width: 180)
+                        .background(Color.blue.opacity(0.6))
                         .cornerRadius(50)
                 }
                 
@@ -83,8 +83,8 @@ struct EditProfileView: View {
                         .fontWeight(.bold)
                         .foregroundColor(.white)
                         .padding()
-                        .frame(width: 200)
-                        .background(Color.black.opacity(0.9))
+                        .frame(width: 180)
+                        .background(Color.yellow.opacity(1))
                         .cornerRadius(50)
                 }
             }

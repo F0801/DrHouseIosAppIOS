@@ -9,6 +9,6 @@ import Foundation
 
 struct Reclamation: Codable {
     let user:String
-    let subject: String
-    let reclamationText: String
+    let title: String
+    let description: String
 }

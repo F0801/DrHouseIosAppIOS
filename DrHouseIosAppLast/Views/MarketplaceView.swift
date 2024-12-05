@@ -186,7 +186,7 @@ struct CategorySectionView: View {
 struct ProductCard: View {
     let product: Product
     let onAddToCart: () -> Void
-    let baseURL = "http://192.168.137.52:3000"  // Base URL
+    let baseURL = "http://172.18.7.103:3000"  // Base URL
 
     // Construct the full URL for the image
     private func getImageURL() -> URL? {
@@ -197,10 +197,6 @@ struct ProductCard: View {
     var body: some View {
         VStack {
             ZStack {
-                //RoundedRectangle(cornerRadius: 10)
-                 //   .fill(Color.white.opacity(0.8))
-
-                // Load the image asynchronously
                 AsyncImage(url: getImageURL()) { phase in
                     switch phase {
                     case .empty:
